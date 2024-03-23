@@ -1,5 +1,12 @@
 package com.example.demo;
 
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Data
 public class Employee {
     private Long id;
     private String name;
@@ -23,23 +30,6 @@ public class Employee {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getMobileNo() {
-        return mobileNo;
-    }
-    public void setMobileNo(String mobileNo) {
-        this.mobileNo = mobileNo;
-    }
-    public Long getSalary() {
-        return salary;
-    }
-    public void setSalary(Long salary) {
-        this.salary = salary;
-    }
+
 
 }
